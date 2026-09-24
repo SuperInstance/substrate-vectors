@@ -1,7 +1,16 @@
 {
-  "name": "substrate-vectors", "version": "0.0.1",
+  "name": "substrate-vectors",
+  "version": "0.0.2",
   "description": "1024-d vector ops, BGE-Large compatible",
-  "main": "src/index.ts", "type": "module",
-  "scripts": { "test": "node --test src/tests/*.test.ts" },
-  "keywords": ["substrate", "vectors", "embeddings"], "license": "MIT"
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/tests/*.test.ts"
+  },
+  "keywords": [
+    "substrate",
+    "vectors",
+    "embeddings"
+  ],
+  "license": "MIT"
 }
